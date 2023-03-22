@@ -16,6 +16,7 @@ specifiers:
   eslint-plugin-react: ^7.32.2
   eslint-plugin-react-hooks: ^4.6.0
   husky: ^8.0.3
+  jsonc-eslint-parser: ^2.2.0
   postcss: ^8.4.21
   pretty-quick: ^3.1.3
   react: ^18.2.0
@@ -44,6 +45,7 @@ devDependencies:
   eslint-plugin-react: 7.32.2_eslint@8.36.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.36.0
   husky: 8.0.3
+  jsonc-eslint-parser: 2.2.0
   postcss: 8.4.21
   pretty-quick: 3.1.3_prettier@2.8.6
   tailwindcss: 3.2.7_postcss@8.4.21
@@ -1942,6 +1944,16 @@ packages:
     hasBin: true
     dependencies:
       minimist: 1.2.8
+    dev: true
+
+  /jsonc-eslint-parser/2.2.0:
+    resolution: {integrity: sha512-x5QjzBOORd+T2EjErIxJnkOEbLVEdD1ILEeBbIJt8Eq/zUn7P7M8qdnWiNVBK5f8oxnJpc6SBHOeeIEl/swPjg==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dependencies:
+      acorn: 8.8.2
+      eslint-visitor-keys: 3.3.0
+      espree: 9.5.0
+      semver: 7.3.8
     dev: true
 
   /jsx-ast-utils/3.3.3:
